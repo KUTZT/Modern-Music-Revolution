@@ -121,7 +121,7 @@ if (window.BEJSSDKObserver === undefined) {
     }
   }
 
-  function checkListeners() {
+  {
     listeners.forEach(function (listener) {
       return checkSelector(listener.selector, listener.fn, listener.indexList);
     });
